@@ -6,7 +6,7 @@
   <title>nat-folio</title>
   <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -31,19 +31,43 @@
     <div class="title position-absolute text-center mb-4">
       <div class="d-flex justify-content-center">
         <img src="./assets/images/title-lines.svg" alt="decoration" class="deco-img">
-        <h2 class="text outline mx-3 mb-0">Creative</h2>
+        <h2 class="text-h outline mx-3 mb-0">Creative</h2>
         <img src="./assets/images/title-lines.svg" alt="decoration" class="deco-img">
       </div>
-      <h1 class="text">DEVELOPER</h1>
+      <h1 class="text-h">DEVELOPER</h1>
     </div>
   </main>
 
-  <section class="bg-primary" id="projects"></section>
-  <section class="bg-success" id="about"></section>
+  <section class="d-flex flex-column justify-content-center position-relative" id="projects">
+    <h2 class="text-h mt-5 mb-5 text-center">PROJECTS</h2>
+    <!-- <img src="./assets/images/project-line.svg" class="d-none d-lg-block position-absolute line" alt="line"> -->
+
+    <div class="d-flex flex-column justify-content-center px-md-5 mx-lg-5 mb-5 projects-container">
+      
+      <div class="p-card d-flex flex-column-reverse flex-column flex-md-row align-items-center justify-content-between gap-5 gap-md-0">
+        <p class="text-p col-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla felis ac odio gravida tincidunt. Nullam id nisl et ipsum dapibus auctor sed non est.tincidunt</p>
+        <div class="p-image col-12 col-md-4 rounded-2"></div>
+      </div>
+      <div class="p-card d-flex flex-column flex-md-row align-items-center justify-content-between gap-5 gap-md-0">
+        <div class="p-image col-12 col-md-4 rounded-2"></div>
+        <p class="text-p col-12 col-md-6 text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla felis ac odio gravida tincidunt. Nullam id nisl et ipsum dapibus auctor sed non est.tincidunt</p>
+      </div>
+      <div class="p-card d-flex flex-column-reverse flex-column flex-md-row align-items-center justify-content-between gap-5 gap-md-0">
+        <p class="text-p col-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla felis ac odio gravida tincidunt. Nullam id nisl et ipsum dapibus auctor sed non est.tincidunt</p>
+        <div class="p-image col-12 col-md-4 rounded-2"></div>
+      </div>
+      <div class="p-card d-flex flex-column flex-md-row align-items-center justify-content-between gap-5 gap-md-0">
+        <div class="p-image col-12 col-md-4 rounded-2"></div>
+        <p class="text-p col-12 col-md-6 text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla felis ac odio gravida tincidunt. Nullam id nisl et ipsum dapibus auctor sed non est.tincidunt</p>
+      </div>
+    </div>
+
+  </section>
+  <section class="bg-danger d-flex justify-content-center align-items-center" id="about">
+    <p class="text-p" style="font-size: 2rem">Em desenvolvimento.</p>
+  </section>
 
   <!-- Scripts para funcionamento do bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
