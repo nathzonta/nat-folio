@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>nat-folio</title>
+  <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
@@ -19,7 +20,24 @@
     <img src="./assets/icons/logo.svg" alt="NZ" class="logo">
   </header>
 
-  <main class="bg-danger" id="home"></main>
+  <main class="d-flex justify-content-center align-items-end position-relative" id="home">
+    <img src="./assets/images/char.png" alt="character" class="char-img">
+    <div class="align-self-center d-none d-lg-block">
+      <img src="./assets/images/title.png" alt="Hello! I'm Nat Zonta" class="subtitle">
+    </div>
+    <div class="align-self-center d-block d-lg-none">
+      <img src="./assets/images/title-mobile.png" alt="Hello! I'm Nat Zonta" class="subtitle-mobile">
+    </div>
+    <div class="title position-absolute text-center mb-4">
+      <div class="d-flex justify-content-center">
+        <img src="./assets/images/title-lines.svg" alt="decoration" class="deco-img">
+        <h2 class="text outline mx-3 mb-0">Creative</h2>
+        <img src="./assets/images/title-lines.svg" alt="decoration" class="deco-img">
+      </div>
+      <h1 class="text">DEVELOPER</h1>
+    </div>
+  </main>
+
   <section class="bg-primary" id="projects"></section>
   <section class="bg-success" id="about"></section>
 
